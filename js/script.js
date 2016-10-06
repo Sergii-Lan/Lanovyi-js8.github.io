@@ -1,15 +1,15 @@
-console.log($);
+
 
 $(function () {
 
-    var $firstName = $('.firstname');
-    var $lastName = $('.lastname');
-    var $address = $('.address');
-    var $prompt_block = $('.prompt1, .prompt2, .prompt3');
-    var $prompt1 = $('.prompt1');
-    var $prompt2 = $('.prompt2');
-    var $prompt3 = $('.prompt3');
-    var $button = $('[type="button"]');
+    var $firstName = $('.firstname'),
+    $lastName = $('.lastname'),
+    $address = $('.address'),
+    $prompt_block = $('.prompt1, .prompt2, .prompt3'),
+    $prompt1 = $('.prompt1'),
+    $prompt2 = $('.prompt2'),
+    $prompt3 = $('.prompt3'),
+    $button = $('[type="button"]');
 
 
     $firstName.hover( function () {

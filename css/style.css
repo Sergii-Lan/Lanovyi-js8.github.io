@@ -2,7 +2,7 @@
     width: 550px;
     height: 350px;
     margin: 50px auto;
-    border: 1px solid grey;
+    border: 1px solid #808080;
 }
 
 .main_block {
@@ -10,7 +10,7 @@
     max-height: 330px;
     overflow: auto;
     margin: 10px auto 0 auto;
-    border: 1px solid grey;
+    border: 1px solid #808080;
 }
 
 label {
@@ -48,23 +48,13 @@ form {
 .prompt1,
 .prompt2,
 .prompt3 {
-    border: solid 1px black;
+    border: solid 1px #000;
     height: 40px;
     line-height: 40px;
     display: block;
     opacity: 0;
     font-size: 15px;
 }
-
-
-/*.prompt {*/
-    /*border: solid 1px black;*/
-    /*height: 40px;*/
-    /*line-height: 40px;*/
-    /*display: block;*/
-    /*opacity: 0;*/
-    /*font-size: 15px;*/
-/*}*/
 
 .promt_block {
     margin-top: 13px;
